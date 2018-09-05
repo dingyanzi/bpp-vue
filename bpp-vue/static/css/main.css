@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.content{
+  background: #fff;
+  padding-bottom: 4rem;
+}
+.wrap{
+  padding-top: 60px;
+  background: #fff;
+}
+.mint-header{
+  height: 60px;
+  padding-top: 15px;
+}
+.mint-header-title{
+  font-size: 1rem;
+}
+
+
+/*.ban1 {
+  background: url(../../static/imgs/banner1.jpg) no-repeat;
+}*/
+
+/*****************************************************共用样式*****************************************************************/

@@ -1,0 +1,73 @@
+body,html,ul,li{
+  margin: 0;
+  padding: 0;
+}
+:focus {
+  outline: 0;
+}
+html{
+  background-color: #f6f7f4;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+a, img, iframe {
+  border: none;
+}
+ol, ul {
+  list-style: none;
+}
+li{
+  margin-right: 0;
+}
+h1,h2,h3,h4{
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill { -webkit-box-shadow: 0 0 0 1000px white inset; } input[type=text]:focus, input[type=password]:focus, textarea:focus { -webkit-box-shadow: 0 0 0 1000px white inset; }
+:-moz-placeholder {
+  color: #797979;
+}
+::-moz-placeholder {
+  color: #797979;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #797979;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #797979;
+}
+
+/* Fixes incorrect placement of numbers in ol’s in IE6/7 */
+/* == clearfix == */
+.clearfix:after {
+  content:'';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+.lt{
+  float: left;
+}
+.rt{
+  float: right;
+}
